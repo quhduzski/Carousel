@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  background-color: rgb(249, 245, 249);
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.carousel {
+  background-color: white;
+  /* height: 500px;
+  width: 500px; */
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 4px 4px 16px rgb(225, 225, 225), 2px 2px 8px rgb(245, 245, 245);
+}
+
+.photo-container {
+  height: 400px;
+  width: 400px;
+  border-radius: 20px;
+  background-color: blue;
+  display: flex;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+.button-container {
+  /* background-color: chocolate; */
+  /* height: 50px;
+  width: 500px; */
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  height: 40px;
+  width: 40px;
+  margin: 5px 10px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(202, 197, 197));
+  box-shadow: 0 2px 5px rgb(249, 245, 249);
+}
