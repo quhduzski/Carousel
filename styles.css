@@ -21,7 +21,7 @@ body {
   height: 400px;
   width: 400px;
   border-radius: 20px;
-  background-color: blue;
+  /* background-color: blue; */
   display: flex;
   overflow: hidden;
   scroll-behavior: smooth;
